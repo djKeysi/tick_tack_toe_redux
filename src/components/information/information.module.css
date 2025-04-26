@@ -1,0 +1,14 @@
+.colorWinner {
+	font-weight: bold;
+	color: red;
+}
+.colorDraw {
+	font-weight: bold;
+	color: blue;
+}
+label {
+	text-align: center;
+}
+.disabled {
+	pointer-events: none;
+}

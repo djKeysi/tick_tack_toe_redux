@@ -1,0 +1,34 @@
+.parent {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: auto;
+}
+
+.block {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -125px 0 0 -125px;
+}
+
+.cell {
+	flex: 0 0 32%;
+	height: 50px;
+	margin-bottom: 5px;
+	background-color: #999;
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica;
+	cursor: crosshair;
+}
+
+.disabled {
+	/* cursor: pointer; */
+	pointer-events: none;
+}
